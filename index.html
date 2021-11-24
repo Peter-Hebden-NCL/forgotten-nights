@@ -20,21 +20,22 @@
 </head>
 <body class="fullscreen">
   
+  <!--The container for the night-sky display-->
   <div class="container">
     <div class="parent">
+      <!--The moon/play button-->
       <div id="moon" class="title-container" draggable="true"><a id="title-click" href="#"><span class="material-icons title">brightness_3</span></a></div>
     </div>
+    <!--The toolbar for controlling the display of the stars and playback-->
     <div class="toolbar">
-      <!--
-      <button id="all-button">All stars</button>
-      <button id="none-button">No stars</button>
-      -->
       <button id="new-sky-button">Another night</button>
       <button id="reveal-button">Reveal stars</button>
       <button id="info-button">About</button>
       <button id="stop-button">Stop</button>
     </div>
   </div>
+
+  <!--The opening page for the interface-->
   <div class="overlay">
         <div class="info-box">
           <p class="info-title">forgotten nights</p>
@@ -43,7 +44,8 @@
           <p class="info-main">This is a poem about the night-sky, the power it has over our memory and the fascination that it has held for us for millennia. <br/><br/> Clicking on the moon will start the poem playing. The poem that you hear will depend on the number and position of the stars. Add new stars by hovering over an empty space to see if a star can be added there. Click on a star to remove it from the sky. Each change to the night-sky will alter one or more lines of the poem. The toolbar at the bottom of the screen can help you in crafting the starscape. <br><br/> Although the connections between the changes to the stars and the changes to the poem might be difficult to track, the lines are not randomly generated. Instead, the app reads the sky and uses the information to determine the content.<br/><br/> This poem was inspired by the work of Philip Gross and by Stephanie Strickland's <em>V</em> series of books and digital poems. <br/><br/> For anyone interested in seeing the code behind this project, or who wants adapt/rewrite it themselves, the whole thing is available on <a href="https://github.com/Pete-H-22/night-poem-2" target="_blank">GitHub</a>. You can also contact me with any questions at p.a.hebden[at]ncl.ac.uk <br/><br/> <strong>Peter Hebden, 2019</strong> <br/><br/> <em>Peter Hebden's PhD project 'Creative Digital Interventions into Poetry' is funded by the AHRC National Productivity Investment Fund.</em></p>
           <button id="close-button">Close</button>
         </div>
-    </div>
+  </div>
+  
   <script src="js/jquery-1.11.1.min.js"></script>
   <script src="js/lines.js"></script>
   <script src="js/main.js"></script>
