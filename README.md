@@ -23,5 +23,5 @@ The interface's functionality is signposted by comments in the 'index.html' and 
 
 ### Attribution
 
-This code repository is part of the PhD thesis 'Poetry in Digital Media' by Peter Hebden, Newcastle University 2021. This source code is shared under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0). A copy of this license is viewable here: https://creativecommons.org/licenses/by-sa/4.0/legalcode.
+This code repository is part of the PhD thesis 'Poetry in Digital Media' by Peter Hebden, Newcastle University 2021. This source code is shared under the MIT License. A copy of the license is included in the root folder of this project.
 
