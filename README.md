@@ -1,4 +1,4 @@
-# forgotten nights
+# forgotten nights source code
 
 **This is the code for the digital poem 'forgotten nights'. The interface presents the user with an interactive night-sky, allowing them to add and remove stars. The number and position of the stars affect the words of the poem that is heard when the user presses the play button (the moon). **
 
